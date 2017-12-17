@@ -169,3 +169,33 @@ div.bottom ul.right li a{
 	letter-spacing: 0.1px;
 	font-size: 14px;
 }
+
+/*Media queries*/
+@media(max-width:437px){
+	.nav li a{
+		font-size: 10px;
+	}
+
+	.nav img{
+		display: none;
+	}
+}
+
+@media (max-width:700px){
+	div.searchBox input{
+		width: 85%;
+	}
+}
+
+@media (max-width: 539px){
+	div.bottom ul.left,
+	div.bottom ul.right{
+		float: left;
+		width: 80%;
+		text-align: center;
+	}
+
+	div.bottom ul.right{
+		padding-left: 24px;
+	}
+}
